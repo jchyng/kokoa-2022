@@ -1,0 +1,19 @@
+/* setting */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import "reset.css";
+@import "variable.css";
+
+/* component */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* screen */
+@import "screens/login-form.css";
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+
+
