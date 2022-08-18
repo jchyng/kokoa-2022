@@ -1,0 +1,14 @@
+.icon-raw{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.icon-raw__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 7%;
+}
+.icon-raw__icon i{
+    font-size: 35px;
+    margin-bottom: 25px;
+}

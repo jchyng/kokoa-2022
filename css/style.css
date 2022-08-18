@@ -10,10 +10,16 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-raw.css";
+@import "components/alt-screen-header.css";
 
 /* screen */
 @import "screens/login-form.css";
 @import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body{
     color: #2e363e;
@@ -24,3 +30,21 @@ body{
     margin: 0px var(--horizontal-space);
 }
 
+#no-mobile{
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    top: 0;
+}
+
+@media screen and (max-width:645px){
+    #no-mobile{
+        display: none;
+    }
+}
